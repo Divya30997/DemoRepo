@@ -6,7 +6,7 @@ dotnet = 'path\\to\\dotnet.exe'
 stages {
 stage ('Checkout') {
             steps {
-                 git url: 'https://github.com/Divya30997/DemoRepo',branch: 'master'
+                 git url: 'https://github.com/Divya30997/DemoRepo',branch: 'main'
             }
 }
 stage ('Restore PACKAGES') {     
